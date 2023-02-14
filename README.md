@@ -1,6 +1,6 @@
 # Name of Project --- Qadyr
 
-###About Project
+### About Project
 
 
 <img width="361" alt="Снимок экрана 2023-02-14 в 23 16 39" src="https://user-images.githubusercontent.com/90827203/218812683-749c21e5-200c-45d0-87b6-2d227dfba8fb.png">
