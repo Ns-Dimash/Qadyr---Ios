@@ -9,6 +9,7 @@ import UIKit
 import UserNotifications
 
 class TimeViewController: UIViewController {
+    var a = ""
     
     var manager = Manager()
     
