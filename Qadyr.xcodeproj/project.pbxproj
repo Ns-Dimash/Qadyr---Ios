@@ -30,7 +30,7 @@
 		0156AF0E297D272C00116635 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		01BECCE5297DC8B700C77707 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		01C9FA2E297841090082C237 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
-		01E9753729716CBF00C855BC /* Molitva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molitva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E9753729716CBF00C855BC /* Qadyr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qadyr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E9753A29716CBF00C855BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		01E9753C29716CBF00C855BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		01E9753E29716CBF00C855BC /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		01E9753829716CBF00C855BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01E9753729716CBF00C855BC /* Molitva.app */,
+				01E9753729716CBF00C855BC /* Qadyr.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01E9753629716CBF00C855BC /* Molitva */ = {
+		01E9753629716CBF00C855BC /* Qadyr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01E9754B29716CC100C855BC /* Build configuration list for PBXNativeTarget "Molitva" */;
+			buildConfigurationList = 01E9754B29716CC100C855BC /* Build configuration list for PBXNativeTarget "Qadyr" */;
 			buildPhases = (
 				622C12B34B56DF8A8E9C1ECB /* [CP] Check Pods Manifest.lock */,
 				01E9753329716CBF00C855BC /* Sources */,
@@ -146,9 +146,9 @@
 			);
 			dependencies = (
 			);
-			name = Molitva;
+			name = Qadyr;
 			productName = Molitva;
-			productReference = 01E9753729716CBF00C855BC /* Molitva.app */;
+			productReference = 01E9753729716CBF00C855BC /* Qadyr.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 01E9753229716CBF00C855BC /* Build configuration list for PBXProject "Molitva" */;
+			buildConfigurationList = 01E9753229716CBF00C855BC /* Build configuration list for PBXProject "Qadyr" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -179,7 +179,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01E9753629716CBF00C855BC /* Molitva */,
+				01E9753629716CBF00C855BC /* Qadyr */,
 			);
 		};
 /* End PBXProject section */
@@ -451,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01E9753229716CBF00C855BC /* Build configuration list for PBXProject "Molitva" */ = {
+		01E9753229716CBF00C855BC /* Build configuration list for PBXProject "Qadyr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01E9754929716CC100C855BC /* Debug */,
@@ -460,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01E9754B29716CC100C855BC /* Build configuration list for PBXNativeTarget "Molitva" */ = {
+		01E9754B29716CC100C855BC /* Build configuration list for PBXNativeTarget "Qadyr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01E9754C29716CC100C855BC /* Debug */,

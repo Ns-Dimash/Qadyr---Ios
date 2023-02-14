@@ -13,7 +13,7 @@ class LocationViewController: UIViewController,CLLocationManagerDelegate{
     
     let locationManager = CLLocationManager()
 
-    var arr = ["Almaty","Atyrau","Astana","Aktau","Aktobe","Shymkent","Karaganda","Semey"]
+    var arr = ["Almaty","Atyrau","Astana","Mangystau","Aktobe","Oral","Karaganda","Shymkent","Zhambyl","Kyzylorda","Kostanay","Petropavol","Pavlodar"]
     private let table:UITableView = {
         let tab = UITableView()
         tab.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
