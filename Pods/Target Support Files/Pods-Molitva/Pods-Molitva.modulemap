@@ -1,0 +1,6 @@
+framework module Pods_Molitva {
+  umbrella header "Pods-Molitva-umbrella.h"
+
+  export *
+  module * { export * }
+}

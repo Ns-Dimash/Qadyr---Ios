@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010A95102975DDC2000FE5F9 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010A950F2975DDC2000FE5F9 /* MainTabBar.swift */; };
+		010A95142975DE43000FE5F9 /* TasbihViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010A95132975DE43000FE5F9 /* TasbihViewController.swift */; };
+		0156AF0D297D1D8700116635 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156AF0C297D1D8700116635 /* LocationViewController.swift */; };
+		0156AF0F297D272C00116635 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0156AF0E297D272C00116635 /* CoreLocation.framework */; };
+		01BECCE6297DC8B700C77707 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BECCE5297DC8B700C77707 /* SettingsViewController.swift */; };
+		01C9FA2F297841090082C237 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C9FA2E297841090082C237 /* LevelViewController.swift */; };
+		01E9753B29716CBF00C855BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9753A29716CBF00C855BC /* AppDelegate.swift */; };
+		01E9753D29716CBF00C855BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9753C29716CBF00C855BC /* SceneDelegate.swift */; };
+		01E9753F29716CBF00C855BC /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9753E29716CBF00C855BC /* TimeViewController.swift */; };
+		01E9754429716CC100C855BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E9754329716CC100C855BC /* Assets.xcassets */; };
+		01E9754729716CC100C855BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E9754529716CC100C855BC /* LaunchScreen.storyboard */; };
+		01E9754F2971988300C855BC /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E9754E2971988300C855BC /* Manager.swift */; };
+		01E975512972A6EB00C855BC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E975502972A6EB00C855BC /* Model.swift */; };
+		CA469BC4ACF0960C9D2F2A96 /* Pods_Molitva.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3280077FDE4C2A7F86C7141 /* Pods_Molitva.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		010A950F2975DDC2000FE5F9 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		010A95132975DE43000FE5F9 /* TasbihViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasbihViewController.swift; sourceTree = "<group>"; };
+		0156AF0C297D1D8700116635 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		0156AF0E297D272C00116635 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		01BECCE5297DC8B700C77707 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		01C9FA2E297841090082C237 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		01E9753729716CBF00C855BC /* Molitva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molitva.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E9753A29716CBF00C855BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01E9753C29716CBF00C855BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01E9753E29716CBF00C855BC /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		01E9754329716CC100C855BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01E9754629716CC100C855BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01E9754829716CC100C855BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E9754E2971988300C855BC /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		01E975502972A6EB00C855BC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A08FE4D0D3A3C485591000E9 /* Pods-Molitva.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Molitva.debug.xcconfig"; path = "Target Support Files/Pods-Molitva/Pods-Molitva.debug.xcconfig"; sourceTree = "<group>"; };
+		C3280077FDE4C2A7F86C7141 /* Pods_Molitva.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Molitva.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0450B083F1AA469045D603C /* Pods-Molitva.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Molitva.release.xcconfig"; path = "Target Support Files/Pods-Molitva/Pods-Molitva.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E9753429716CBF00C855BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156AF0F297D272C00116635 /* CoreLocation.framework in Frameworks */,
+				CA469BC4ACF0960C9D2F2A96 /* Pods_Molitva.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010A95112975DDE8000FE5F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				010A950F2975DDC2000FE5F9 /* MainTabBar.swift */,
+				01E9753E29716CBF00C855BC /* TimeViewController.swift */,
+				010A95132975DE43000FE5F9 /* TasbihViewController.swift */,
+				01C9FA2E297841090082C237 /* LevelViewController.swift */,
+				0156AF0C297D1D8700116635 /* LocationViewController.swift */,
+				01BECCE5297DC8B700C77707 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		010A95122975DE08000FE5F9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				01E9754E2971988300C855BC /* Manager.swift */,
+				01E975502972A6EB00C855BC /* Model.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		01E9752E29716CBF00C855BC = {
+			isa = PBXGroup;
+			children = (
+				01E9753929716CBF00C855BC /* Molitva */,
+				01E9753829716CBF00C855BC /* Products */,
+				31A041F34FD9892617CC5348 /* Pods */,
+				C0516DFC6FBF7A459E6FA9B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01E9753829716CBF00C855BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E9753729716CBF00C855BC /* Molitva.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E9753929716CBF00C855BC /* Molitva */ = {
+			isa = PBXGroup;
+			children = (
+				010A95122975DE08000FE5F9 /* API */,
+				010A95112975DDE8000FE5F9 /* Controller */,
+				01E9753A29716CBF00C855BC /* AppDelegate.swift */,
+				01E9753C29716CBF00C855BC /* SceneDelegate.swift */,
+				01E9754329716CC100C855BC /* Assets.xcassets */,
+				01E9754529716CC100C855BC /* LaunchScreen.storyboard */,
+				01E9754829716CC100C855BC /* Info.plist */,
+			);
+			path = Molitva;
+			sourceTree = "<group>";
+		};
+		31A041F34FD9892617CC5348 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A08FE4D0D3A3C485591000E9 /* Pods-Molitva.debug.xcconfig */,
+				F0450B083F1AA469045D603C /* Pods-Molitva.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0516DFC6FBF7A459E6FA9B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0156AF0E297D272C00116635 /* CoreLocation.framework */,
+				C3280077FDE4C2A7F86C7141 /* Pods_Molitva.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E9753629716CBF00C855BC /* Molitva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E9754B29716CC100C855BC /* Build configuration list for PBXNativeTarget "Molitva" */;
+			buildPhases = (
+				622C12B34B56DF8A8E9C1ECB /* [CP] Check Pods Manifest.lock */,
+				01E9753329716CBF00C855BC /* Sources */,
+				01E9753429716CBF00C855BC /* Frameworks */,
+				01E9753529716CBF00C855BC /* Resources */,
+				D8A2E1B82FD8580400D3F322 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Molitva;
+			productName = Molitva;
+			productReference = 01E9753729716CBF00C855BC /* Molitva.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E9752F29716CBF00C855BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					01E9753629716CBF00C855BC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 01E9753229716CBF00C855BC /* Build configuration list for PBXProject "Molitva" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01E9752E29716CBF00C855BC;
+			productRefGroup = 01E9753829716CBF00C855BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E9753629716CBF00C855BC /* Molitva */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E9753529716CBF00C855BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E9754729716CC100C855BC /* LaunchScreen.storyboard in Resources */,
+				01E9754429716CC100C855BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		622C12B34B56DF8A8E9C1ECB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Molitva-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A2E1B82FD8580400D3F322 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Molitva/Pods-Molitva-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Molitva/Pods-Molitva-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Molitva/Pods-Molitva-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E9753329716CBF00C855BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010A95102975DDC2000FE5F9 /* MainTabBar.swift in Sources */,
+				010A95142975DE43000FE5F9 /* TasbihViewController.swift in Sources */,
+				01E975512972A6EB00C855BC /* Model.swift in Sources */,
+				01BECCE6297DC8B700C77707 /* SettingsViewController.swift in Sources */,
+				01C9FA2F297841090082C237 /* LevelViewController.swift in Sources */,
+				01E9753F29716CBF00C855BC /* TimeViewController.swift in Sources */,
+				0156AF0D297D1D8700116635 /* LocationViewController.swift in Sources */,
+				01E9753B29716CBF00C855BC /* AppDelegate.swift in Sources */,
+				01E9753D29716CBF00C855BC /* SceneDelegate.swift in Sources */,
+				01E9754F2971988300C855BC /* Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01E9754529716CC100C855BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E9754629716CC100C855BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01E9754929716CC100C855BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01E9754A29716CC100C855BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01E9754C29716CC100C855BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08FE4D0D3A3C485591000E9 /* Pods-Molitva.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D422DH2LV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Molitva/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dimash-s.Molitva";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01E9754D29716CC100C855BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0450B083F1AA469045D603C /* Pods-Molitva.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D422DH2LV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Molitva/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Dimash-s.Molitva";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E9753229716CBF00C855BC /* Build configuration list for PBXProject "Molitva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E9754929716CC100C855BC /* Debug */,
+				01E9754A29716CC100C855BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E9754B29716CC100C855BC /* Build configuration list for PBXNativeTarget "Molitva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E9754C29716CC100C855BC /* Debug */,
+				01E9754D29716CC100C855BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E9752F29716CBF00C855BC /* Project object */;
+}
